@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dateutil
+passlib
+bcrypt==4.0.1
+python-jose[cryptography]
+python-multipart
+pydantic[email]
+python-dotenv
+openai
+apscheduler
+requests
+reportlab
+psycopg2-binary
