@@ -48,7 +48,34 @@ m4/ltversion.m4
 m4/lt~obsolete.m4
 
 # Generated Makefile
-# (meta build system like autotools,
-# can automatically generate from config.status script
-# (which is called by configure script))
+# (Meta build systems like autotools can automatically generate this from
+# config.status.)
 Makefile
+
+# Python / Backend
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/uploads/*
+backend/downloads/*
+!backend/uploads/.gitkeep
+!backend/downloads/.gitkeep
+
+# Flutter
+medstock_app/build/
+medstock_app/.dart_tool/
+medstock_app/.flutter-plugins
+medstock_app/.flutter-plugins-dependencies
+medstock_app/.packages
+medstock_app/pubspec.lock
+
+# Admin Panel
+admin-panel/node_modules/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.iml
