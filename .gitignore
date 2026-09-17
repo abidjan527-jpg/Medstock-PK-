@@ -58,8 +58,8 @@ backend/venv/
 backend/__pycache__/
 backend/*.db
 backend/uploads/*
-backend/downloads/*
 !backend/uploads/.gitkeep
+backend/downloads/*
 !backend/downloads/.gitkeep
 
 # Flutter
